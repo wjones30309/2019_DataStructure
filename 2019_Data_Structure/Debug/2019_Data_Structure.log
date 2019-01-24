@@ -1,7 +1,4 @@
 ﻿  main.cpp
-  linkedList.cpp
-  doubleLinkedList.cpp
-  circleLinkedList.cpp
-  코드를 생성하고 있습니다...
-  2019_Data_Structure.vcxproj -> c:\users\mqjin\documents\visual studio 2015\Projects\2019_Data_Structure\Debug\2019_Data_Structure.exe
-  2019_Data_Structure.vcxproj -> c:\users\mqjin\documents\visual studio 2015\Projects\2019_Data_Structure\Debug\2019_Data_Structure.pdb (Full PDB)
+c:\users\mqjin\documents\visual studio 2015\projects\2019_data_structure\2019_data_structure\main.cpp(17): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  2019_Data_Structure.vcxproj -> C:\Users\mqjin\documents\visual studio 2015\Projects\2019_Data_Structure\Debug\2019_Data_Structure.exe
+  2019_Data_Structure.vcxproj -> C:\Users\mqjin\documents\visual studio 2015\Projects\2019_Data_Structure\Debug\2019_Data_Structure.pdb (Full PDB)

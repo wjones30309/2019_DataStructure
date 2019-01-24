@@ -30,8 +30,12 @@ bool circleLinkedList::frontAddNode(Data data)
 		newNode->putData(data);
 		newNode->key = keyNum++;
 
+		Node *ptrNode = this->head;
+		while (ptrNode->nextNode != this->head)
+			ptrNode = ptrNode->nextNode;
+
 		newNode->nextNode = this->head;
-		this->head->nextNode = newNode; //추가된 점
+		ptrNode->nextNode = newNode;
 		this->head = newNode;
 
 		m_length++;

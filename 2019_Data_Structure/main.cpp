@@ -1,10 +1,88 @@
 //#include "linkedList.h"
 //#include "doubleLinkedList.h"
-#include "circleLinkedList.h"
+//#include "circleLinkedList.h"
+//#include "array_Queue.h"
+#include "nodeQueue.h"
+#include "Sort.h"
 #include <iostream>
 #include <string>
+#include <stdlib.h>
+#include <time.h>
+
+#define SIZE 1000
 using namespace std;
 
+int main()
+{
+	srand(time(NULL));
+
+	sorting sort;
+
+	vector<int> vec;
+
+	for (int i = 0; i < SIZE; i++)
+		vec.push_back((rand() % SIZE) + 1);
+
+	cout << "----------------before doing mergesort----------------" << endl;
+
+	for (int i = 0; i < SIZE; i++)
+		cout << vec[i] << endl;
+
+
+	sort.mergeSort(vec);
+
+
+
+	return 0;
+}
+
+/*
+int main(void)
+{
+	nodeQueue queue;
+
+	Data data[5];
+	
+	for (int i = 0; i < 5; i++)
+	{
+		data[i].data = i;
+	}
+
+	queue.enQueue(data[0]);
+	queue.enQueue(data[1]);
+	queue.deQueue();
+	queue.deQueue();
+
+	return 0;
+}
+*/
+/*
+int main()
+{
+	array_Queue queue;
+	for(int i= 0; i<10; i++)
+		queue.enQueue(i);
+
+	for (int i = 0; i < 5; i++)
+	{
+		cout << queue.front();
+		queue.deQueue();
+	}
+
+	for (int i = 0; i < 3; i++)
+		queue.enQueue(i);
+
+	for (int i = 0; i < 9; i++)
+	{
+		cout << queue.front();
+		queue.deQueue();
+	}
+
+	return 0;
+}
+*/
+
+/*
 int main(void)
 {
 	circleLinkedList list;
@@ -28,3 +106,4 @@ int main(void)
 	list.showData(3);
 	return 0;
 }
+*/
