@@ -149,7 +149,7 @@
     <ClCompile Include="array_Queue.cpp" />
     <ClCompile Include="circleLinkedList.cpp" />
     <ClCompile Include="doubleLinkedList.cpp" />
-    <ClCompile Include="jinStack.cpp" />
+    <ClCompile Include="jinTree.cpp" />
     <ClCompile Include="linkedList.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="nodeQueue.cpp" />
@@ -159,7 +159,7 @@
     <ClInclude Include="array_Queue.h" />
     <ClInclude Include="circleLinkedList.h" />
     <ClInclude Include="doubleLinkedList.h" />
-    <ClInclude Include="jinStack.h" />
+    <ClInclude Include="jinTree.h" />
     <ClInclude Include="linkedList.h" />
     <ClInclude Include="nodeQueue.h" />
     <ClInclude Include="Sort.h" />
